@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'Agent1' }
     tools {
-        jdk 'java21'
+        jdk 'java17'
         maven 'Maven3'
     }
     stages{
